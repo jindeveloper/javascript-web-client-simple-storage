@@ -1,0 +1,39 @@
+
+body{
+    width: 500px;
+    height: 300px;
+    color:gray;
+    margin: 0 auto;
+    font-size: 25px;
+    background-color:lightsteelblue;
+    font-family:sans-serif;
+   
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+.form-storage{
+
+    width: 500px;
+    height: 200px;
+    color:black;
+
+}
+
+
+
+.form-storage input[type='text']{
+    height: 30px;
+    width: 500px;
+    font-size: 1.4rem;
+    
+}
+
+ul span{
+    font-size:21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
