@@ -14,5 +14,7 @@ What are the differences between localStorage and sessionStorage?
 
 The main difference between the two is that localStorage persist in the local hard-drive which means stores data forever as long as you delete it. However; sessionStorage only persists data until you close your browser which means it last as long as the page in open (tied to a single page or opened tabs).
 
-
+Simple Storage API
+![API](/simple-storage-api-table.png)
+Output
 ![Demo](/web-client-storage-output.gif)
