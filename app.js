@@ -44,7 +44,7 @@ form.onsubmit = (e) => {
 
         console.info("create a new customer");
 
-            showStorage();
+        showStorage();
       
         firstNameInput.value = "";
         lastNameInput.value = "";
@@ -55,12 +55,12 @@ form.onsubmit = (e) => {
 
 function showStorage() {
 
-
     let len = localStorage.length;
+     
     while(ulList.firstChild){
+
         ulList.removeChild(ulList.firstChild);
     }
-
 
     while (len--) {
         
@@ -77,8 +77,6 @@ function showStorage() {
         ulList.appendChild(item);
 
     }
-
-
 }
 
 function deleteStorage(e) {
@@ -86,6 +84,7 @@ function deleteStorage(e) {
     let customerKey = e.srcElement.parentElement.getAttribute("data-customer-key");
 
     console.log(customerKey);
+    
     let index = indexKeys.indexOf(customerKey);
 
     indexKeys.splice(index,1);
